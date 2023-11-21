@@ -1,0 +1,140 @@
+.imagem{
+  text-align: center;
+  background-color: #daeefe;
+ 
+}
+    #logo{
+      width: 200px; /* Largura da imagem do logotipo */
+      height: 200px; /* Mantém a proporção da imagem */
+      margin-right: 5px;
+
+     }
+    h1 {
+      font-size: 36px; /* Tamanho da fonte */
+      font-family: Arial, sans-serif; /* Tipo de fonte */
+      color: #0c63ed; /* Cor do texto */
+      text-align: center; /* Alinhamento de texto */
+      text-transform: uppercase; /* Transformar o texto em maiúsculas */
+      letter-spacing: 2px; /* Espaçamento entre as letras */
+      margin: 20px 0; /* Espaçamento superior e inferior */
+    }
+    
+    /* Estilos para as abas */
+    .tabs {
+      display: flex;
+      background-color: #72C4FF;
+      padding: 10px;
+    }
+
+    .tab {
+      border-radius: 5px; /* Cantos arredondados */
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .tab:hover {
+      background-color: #0c63ed;
+    }
+
+    .tab.active {
+      background-color: #0c63ed;
+    }
+
+    /* Estilos para o conteúdo das abas */
+    .tab-content {
+      display: none;
+      padding: 500px;
+      border: 1px solid #ccc;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+    .container-login{
+        text-align: center; /* Alinhamento central do título */
+        font-family: Arial, sans-serif; /* Tipo de fonte */
+        color: #555; /* Cor do texto */
+    }
+    .container1 {
+      font-size: 20px; /* Tamanho da fonte do título */
+      color: black; /* Cor do texto do título */
+      text-align: center; /* Alinhamento central do título */
+    }
+    #usuario {
+        font-size: 15px; /* Tamanho da fonte do título */
+        color: #555; /* Cor do texto do título */
+    }
+#entrar {
+  display:inline-block;
+  font-size: 12px;
+  background-color: #72c4ff;
+  color:#043d6f;
+  padding: 8px 36px;
+  margin: 15px;
+  border-radius: 30px;
+  border-color: #72c4ff;
+  text-align: center;
+}
+/* Estilos para o rodapé */
+footer {
+  position: relative;
+  background-color: #daeefe; /* Cor de fundo do rodapé */
+  color: #72c4ff; /* Cor do texto no rodapé */
+  padding: 20px 0; /* Espaçamento interno no rodapé */
+}
+
+.rodape-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.informacoes, .redes-sociais {
+  text-align: left; /* Alinha o texto no canto esquerdo */
+  flex-basis: 50%; /* Divide o espaço igualmente entre as colunas */
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+a {
+  color:  #0c63ed;; /* Cor dos links no rodapé */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.ver-mapa {
+  flex-basis: 2%; /* Ajuste o tamanho da coluna do botão conforme necessário */
+}
+
+.ver-mapa a {
+  display: block;
+  background-color: #72c4ff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto no botão */
+  padding: 20px 20px; /* Espaçamento interno do botão */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px; /* Cantos arredondados */
+  transition: background-color 0.3s; /* Efeito de transição na cor de fundo */
+}
+
+.ver-mapa a:hover {
+  background-color: #0c63ed; /* Cor de fundo ao passar o mouse */
+}
